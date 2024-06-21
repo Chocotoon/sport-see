@@ -8,7 +8,7 @@ import User from '../models/User.js'
  * @return { Promise.reject<Error> }
  */
 export function mockFetchUser(userId) {
-    return fetch("./mock_data/data.json")
+    return fetch("sport-see/mock_data/data.json")
         .then((response) => response.json())
         .then(data => {
             const userData = data.USER_MAIN_DATA.find(userData => userData.id === userId);
@@ -38,7 +38,7 @@ export function mockFetchUser(userId) {
  * @return { Promise.reject<Error> }
  */
 export function mockFetchUserActivity(userId) {
-    return fetch("/mock_data/data.json")
+    return fetch("sport-see/mock_data/data.json")
         .then((response) => response.json())
         .then(data => {
             const userActivityData = data.USER_ACTIVITY
@@ -59,7 +59,7 @@ export function mockFetchUserActivity(userId) {
  * @return { Promise.reject<Error> }
  */
 export function mockFetchUserAverageSessions(userId) {
-    return fetch("/mock_data/data.json")
+    return fetch("sport-see/mock_data/data.json")
         .then((response) => response.json())
         .then(data => {
             const userSessionsData = data.USER_AVERAGE_SESSIONS
@@ -78,7 +78,7 @@ export function mockFetchUserAverageSessions(userId) {
  * @return { Promise.reject<Error> }
  */
 export function mockFetchUserPerformance(userId) {
-    return fetch("/mock_data/data.json")
+    return fetch("sport-see/mock_data/data.json")
         .then((response) => response.json())
         .then(data => {
             const userPerformanceData = data.USER_PERFORMANCE
