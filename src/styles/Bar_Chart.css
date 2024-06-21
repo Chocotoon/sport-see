@@ -1,0 +1,16 @@
+.bar_chart {
+    margin-bottom: 40px;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.bar_chart .custom_tooltip {
+    background-color: #FF0000;
+    color: white;
+    padding: 5px;
+}
+
+.recharts-legend-wrapper {
+    top: 0 !important;
+}

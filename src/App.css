@@ -1,0 +1,45 @@
+.welcome {
+  margin: 80px 0px 100px 100px;
+
+}
+
+.welcome h2 {
+  font-size: 48px;
+}
+
+.layout {
+  display: flex;
+}
+
+.main_content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 65%;
+  margin-bottom: 100px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 80px;
+  max-height: 615px;
+}
+
+@media screen and (max-width: 1250px) {
+
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 80px;
+  }
+}

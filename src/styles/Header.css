@@ -1,0 +1,22 @@
+header {
+    display: flex; 
+    justify-content: space-between;
+    background-color: black;
+}
+
+header .logo {
+    max-width: 180px;
+    width: 100%;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 24;
+}

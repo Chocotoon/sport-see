@@ -1,0 +1,32 @@
+.radial_chart {
+    border-radius: 5px;
+    background-color: #FBFBFB;
+
+}
+
+.radial_score {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 180px;
+    font-size: 16px;
+    text-align: center;
+    color: #74798C;
+    background-color: white;
+    border-radius: 50%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 1px 5px #FBFBFB;
+}
+
+.radial_score_amount {
+    font-size: 32px;
+    color: black;
+}
+
+.radial_score_text {
+    width: 50%;
+    margin-left: 25%;
+}

@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    background-color: #FBFBFB;
+    width: 258px;
+    height: 124px;
+    border-radius: 10px;
+    align-items: center;
+  }
+  
+  .card img {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    margin-left: 20px;
+  }
+  
+  .card .card_value {
+    margin: auto;
+  }
+
+  .card .amount {
+    font-weight: 700;
+  }
+
+  .card .type {
+    opacity: 0.6;
+  }

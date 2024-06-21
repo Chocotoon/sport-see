@@ -1,0 +1,17 @@
+.line_chart {
+    background: linear-gradient(to right, #FF0000 75%, #e02012 25%);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.line_chart .custom_tooltip {
+    background-color: white;
+    padding: 0px 5px;
+}
+.label_length {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-size: 10px;
+    font-weight: 700;
+}
